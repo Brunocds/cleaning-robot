@@ -9,5 +9,10 @@ I developed this project as my scientific initiation as a CNPq's fellow, from Au
 * Data analysis and treatment using Excel.
 * Study and application of numerical methods for filtering and interpolating data.
 
+## Before running the codes...
+
+To do the robot go through the water mirror, it's necessary 
+you only need to run the "main.m" file, but before you do that, you need to 
+
 ## Files and documentation 
 
