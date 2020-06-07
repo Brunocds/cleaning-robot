@@ -17,9 +17,10 @@ A detailed documentation, explaining in depth the obtaining process of the neces
 
 ### Files to be read
 
-Before running the codes, it's necessary to have the coordinates of the vertices from the water mirror's graph and the trajectory that the robot will do through these vertices:
+Before running the codes, it's necessary to have the coordinates of the vertices from the water mirror's graph and the trajectory that the robot will do through these vertices. Given that, the developed codes need:
 
-* Graph's vertices file: this file has to be in the format of "Surface Evolver" Data File, usually with the extension ".fe", containing the index of each vertice along with its x, y and z coordinates. 
+* __Graph's vertices file__: this file has to be in the format of "Surface Evolver" Data File, usually with the extension ".fe", containing the index of each vertice along with its x, y and z coordinates. 
+* __Trajectory file:__ : this file can be a simple text file containing the indexes numbers of the graph's vertices file, one per line, in the order desired by the robot to go through. One important detail of this file is that it must have a "\" character in the last line.
 
 ### Programs 
 
