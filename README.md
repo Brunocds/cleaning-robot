@@ -11,8 +11,11 @@ I developed this project as my scientific initiation as a CNPq's fellow, from Au
 
 ## Documentation
 
-[reports](uol.com.br): this folder contains a detailed documentation, explaining in depth the obtaining process of the necessary files to run the codes and the analysis and results of the project.
-[developed-codes](): this folder contains all the developed codes during the project and a briefly explanation of each one. 
+The documentation of this project is divided in three folders:
+
+__[reports]__(https://github.com/Brunocds/cleaning-robot/tree/master/reports): this folder contains a detailed documentation, explaining in depth the obtaining process of the necessary files to run the codes and the analysis and results of the project.
+__[developed-codes]__(https://github.com/Brunocds/cleaning-robot/tree/master/developed-codes): this folder contains all the developed codes during the project and a briefly explanation of each one. 
+__[files-to-be-read]__: this folder contains the files I utilized in the project. The results of the use of these files are discussed in the files inside the reports folder.  
 
 ## Operational Structure
 
@@ -60,6 +63,6 @@ To do the programs work in your NXT, you can use these parameters changing the "
 
 All the developed codes, as well as the files to be read, need to be in MatLab's path in order to work properly. If all these files are in the MatLab's path and the computer and NXT are connected via bluetooth, you only need to run the [main.m](https://github.com/Brunocds/cleaning-robot/blob/master/developed-codes/main.m) in MatLab in order to make the robot go through all points of the water mirror, cleaning it. 
 
-### MatLab Help
+### MatLab Help Command
 
 To understand what each code do, what it returns or what parameter should be used, just you type in MatLab's command window "help program_name", writing the name of the program in "program_name", that will be displayed all this information.
