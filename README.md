@@ -60,4 +60,6 @@ To do the programs work in your NXT, you can use these parameters changing the "
 
 All the developed codes, as well as the files to be read, need to be in MatLab's path in order to work properly. If all these files are in the MatLab's path and the computer and NXT are connected via bluetooth, you only need to run the [main.m](https://github.com/Brunocds/cleaning-robot/blob/master/developed-codes/main.m) in MatLab in order to make the robot go through all points of the water mirror, cleaning it. 
 
-__To understand what each code do, what it returns or what parameter should be used, just you type in MatLab's command window "help programname", writing the name of the program in "programname", that will be displayed all this information.__ 
+### MatLab Help
+
+To understand what each code do, what it returns or what parameter should be used, just you type in MatLab's command window "help program_name", writing the name of the program in "program_name", that will be displayed all this information.
