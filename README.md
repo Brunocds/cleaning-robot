@@ -15,9 +15,9 @@ All the developed codes are generical and can be used to any water mirror.
 
 The documentation of this project is divided in three folders:
 
-* __[reports]__(https://github.com/Brunocds/cleaning-robot/tree/master/reports): this folder contains a detailed documentation, explaining in depth the obtaining process of the necessary files to run the codes and the analysis and results of the project.
-* __[developed-codes]__(https://github.com/Brunocds/cleaning-robot/tree/master/developed-codes): this folder contains all the developed codes during the project and a briefly explanation of each one. 
-* __[files-to-be-read]__(https://github.com/Brunocds/cleaning-robot/tree/master/files-to-be-read): this folder contains the files I utilized in the project. The results of the use of these files are discussed in the files inside the reports folder.  
+* [reports](https://github.com/Brunocds/cleaning-robot/tree/master/reports): this folder contains a detailed documentation, explaining in depth the obtaining process of the necessary files to run the codes and the analysis and results of the project.
+* [developed-codes](https://github.com/Brunocds/cleaning-robot/tree/master/developed-codes): this folder contains all the developed codes during the project and a briefly explanation of each one. 
+* [files-to-be-read](https://github.com/Brunocds/cleaning-robot/tree/master/files-to-be-read): this folder contains the files I utilized in the project. The results of the use of these files are discussed in the files inside the reports folder.  
 
 ## Operational Structure
 
@@ -26,7 +26,7 @@ The documentation of this project is divided in three folders:
 Before running the codes, it's necessary to have the coordinates of the vertices from the water mirror's graph and the trajectory that the robot will do through these vertices. Given that, the developed codes need two files:
 
 * __Graph's vertices file__: this file has to be in the format of "Surface Evolver" Data File, usually with the extension ".fe", containing the index of each vertice along with its x, y and z coordinates. 
-* __Trajectory file__: this file can be a simple text file containing the indexes numbers of the graph's vertices file, one per line, in the order desired by the robot to go through. One important detail of this file is that it must have a "\" character in the last line.
+* __Trajectory file__: this file can be a simple text file containing the indexes numbers of the graph's vertices file, one per line, in the order desired by the robot to go through. One important detail of this file is that it must have a "\\" character in the last line.
 
 In order to the developed codes work properly, both files must be in MatLab's path. 
 
