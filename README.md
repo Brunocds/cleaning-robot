@@ -9,10 +9,17 @@ I developed this project as my scientific initiation as a CNPq's fellow, from Au
 * Data analysis and treatment using Excel.
 * Study and application of numerical methods for filtering and interpolating data.
 
-## Before running the codes...
+## Documentation
 
-To do the robot go through the water mirror, it's necessary 
-you only need to run the "main.m" file, but before you do that, you need to 
+A detailed documentation, explaining in depth the obtaining process of the necessary files to run the codes and the results of the project, is available in the (reports)[uol.com.br] folder. 
 
-## Files and documentation 
+## Operational Structure
+
+### Files to be read
+
+Before running the codes, it's necessary to have the coordinates of the vertices from the water mirror's graph and the trajectory that the robot will do through these vertices:
+
+* Graph's vertices file: this file has to be in the format of "Surface Evolver" Data File, usually with the extension ".fe", containing the index of each vertice along with its x, y and z coordinates. 
+
+### Programs 
 
