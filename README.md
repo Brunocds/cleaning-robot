@@ -9,13 +9,15 @@ I developed this project as my scientific initiation as a CNPq's fellow, from Au
 * Data analysis and treatment using Excel.
 * Study and application of numerical methods for filtering and interpolating data.
 
+All the developed codes are generical and can be used to any water mirror.
+
 ## Documentation
 
 The documentation of this project is divided in three folders:
 
-__[reports]__(https://github.com/Brunocds/cleaning-robot/tree/master/reports): this folder contains a detailed documentation, explaining in depth the obtaining process of the necessary files to run the codes and the analysis and results of the project.
-__[developed-codes]__(https://github.com/Brunocds/cleaning-robot/tree/master/developed-codes): this folder contains all the developed codes during the project and a briefly explanation of each one. 
-__[files-to-be-read]__: this folder contains the files I utilized in the project. The results of the use of these files are discussed in the files inside the reports folder.  
+* __(reports)__[https://github.com/Brunocds/cleaning-robot/tree/master/reports]: this folder contains a detailed documentation, explaining in depth the obtaining process of the necessary files to run the codes and the analysis and results of the project.
+* __(developed-codes)__[https://github.com/Brunocds/cleaning-robot/tree/master/developed-codes]: this folder contains all the developed codes during the project and a briefly explanation of each one. 
+* __(files-to-be-read)__[https://github.com/Brunocds/cleaning-robot/tree/master/files-to-be-read]: this folder contains the files I utilized in the project. The results of the use of these files are discussed in the files inside the reports folder.  
 
 ## Operational Structure
 
