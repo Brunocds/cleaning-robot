@@ -1,6 +1,6 @@
 # Description
 
-The project is completely generic, working for any water mirror. As explained earlier, you only need a _graph's vertices file_ and a _trajectory file_ of a given water mirror. To test the developed codes, I used to water mirrors:
+The project is completely generic, working for any water mirror. As explained earlier, you only need a _graph's vertices file_ and a _trajectory file_ of a given water mirror. To test the developed codes, I used the following water mirrors:
 
 * [ufabc-water-mirror](https://github.com/Brunocds/cleaning-robot/tree/master/files-to-be-read/ufabc-water-mirror): these files are from the water mirror of my university.
   * ufabc.fe: the graph's vertices file.
