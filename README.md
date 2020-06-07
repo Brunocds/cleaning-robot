@@ -28,9 +28,9 @@ In order to the developed codes work properly, both files must be in MatLab's pa
 
 It's possible to use the NXT robot connected via USB, but it isn't a good option given that the cable would limit its moviments. To avoid this it's possible to use a bluetooth connection. In the beggining of the [main.m](https://github.com/Brunocds/cleaning-robot/blob/master/developed-codes/main.m) file, we have:
 
-`h = COM_OpenNXT('bluetooth.ini');
+`<h = COM_OpenNXT('bluetooth.ini');
 
-COM_SetDefaultNXT(h);` 
+COM_SetDefaultNXT(h);>` 
 
 These two lines makes the connection of the MatLab with NXT via bluetooth, to understand more about how it works you can check [here](https://www.mindstorms.rwth-aachen.de/documents/downloads/doc/version-2.00/help/COM_OpenNXT.html), briefly explaining in order to do the bluetooth connection it's necessary to have a _bluetooth.ini_ file, that contains some parameters. The _bluetooth.ini_ file I used contains the following parameters:
 
