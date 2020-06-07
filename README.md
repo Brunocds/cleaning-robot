@@ -41,8 +41,8 @@ These two lines makes the connection of the MatLab with NXT via bluetooth, to un
 >NXT-Name=mais1
 >
 >NXT-MAC=
->Channel=1
 >
+>Channel=1
 >
 >BaudRate=9600
 >
