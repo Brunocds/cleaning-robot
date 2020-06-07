@@ -11,7 +11,8 @@ I developed this project as my scientific initiation as a CNPq's fellow, from Au
 
 ## Documentation
 
-A detailed documentation, explaining in depth the obtaining process of the necessary files to run the codes and the results of the project, is available in the [reports](uol.com.br) folder. 
+[reports](uol.com.br): this folder contains a detailed documentation, explaining in depth the obtaining process of the necessary files to run the codes and the analysis and results of the project.
+[developed-codes](): this folder contains all the developed codes during the project and a briefly explanation of each one. 
 
 ## Operational Structure
 
@@ -33,7 +34,7 @@ h = COM_OpenNXT('bluetooth.ini');
 COM_SetDefaultNXT(h);
 ~~~
 
-These two lines makes the connection of the MatLab with NXT via bluetooth, to understand more about how it works you can check [here](https://www.mindstorms.rwth-aachen.de/documents/downloads/doc/version-2.00/help/COM_OpenNXT.html), briefly explaining in order to do the bluetooth connection it's necessary to have a _bluetooth.ini_ file, that contains some parameters. The _bluetooth.ini_ file I used contains the following parameters:
+These two lines makes the connection of the MatLab with NXT via bluetooth, to understand more about how it works you can check [here](https://www.mindstorms.rwth-aachen.de/documents/downloads/doc/version-2.00/help/COM_OpenNXT.html), but briefly explaining in order to do the bluetooth connection it's necessary to have a _bluetooth.ini_ file, that contains some parameters. The _bluetooth.ini_ file I used contains the following parameters:
 
 >[Bluetooth]
 >
@@ -52,3 +53,7 @@ These two lines makes the connection of the MatLab with NXT via bluetooth, to un
 To do the programs work in your NXT, you can use these parameters changing the "NXT-Name=" and "Channel=" according to yours.
 
 ### Programs
+
+All the developed codes, as well as the files to be read, need to be in MatLab's path in order to work properly. If all these files are in the MatLab's path and the computer and NXT are connected via bluetooth, you only need to run the [main.m](https://github.com/Brunocds/cleaning-robot/blob/master/developed-codes/main.m) in MatLab in order to make the robot go through all points of the water mirror, cleaning it. 
+
+__To understand what each code do, what it returns or what parameter should be used, just you type in MatLab's command window "help programname", writing the name of the program in "programname", that will be displayed all this information.__ 
